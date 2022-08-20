@@ -1,0 +1,10 @@
+navbar
+signup
+features
+pricing and comparisons section
+reviews
+footer (other pages/portals contacts about us)
+
+
+deep blue hex: 257DC8
+light blue hex: 21C7D4

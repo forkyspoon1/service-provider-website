@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: SpaceMono-Regular
+font link: https://fonts.google.com/specimen/Space+Mono
+font author: Colophon
+font author site: https://www.colophon-foundry.org/
+
+
+icon designer: Alfredo @ IconsAlfredo.us
+icon designer link: /AlfredoCreates
+        
+{"bg":"#257DC8","icon":"#21C7D4","font":"#ffffff","slogan":"#ffffff"}
+      

@@ -1,0 +1,14 @@
+.navbar {
+    background-color: #257DC8;
+    /* padding: auto 10rem auto 10rem;
+    margin: auto 10rem auto 10rem; */
+}
+
+.navbar img {
+  width: 5em;
+}
+
+
+@media (max-width:769px) {
+    
+}
