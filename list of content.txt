@@ -1,5 +1,5 @@
-navbar
-signup
+navbar 
+signup (style form)
 features
 pricing and comparisons section
 reviews
