@@ -1,14 +1,116 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+
+/* ///////////////////// NAVBAR /////////////////////////// */
+
 .navbar {
     background-color: #257DC8;
     padding: auto 5rem auto 5rem;
-    text-align: center;
 }
 
 .navbar img {
   width: 5em;
+  margin-left: 0.5em;
+}
+
+.nav-item {
+  padding-left: 0.5em;
 }
 
 
-@media (max-width:769px) {
-    
+/* ///////////////////// HOME SECTION /////////////////////////// */
+
+
+#homeSection {
+   background-image: linear-gradient(to bottom right, #21C7D4, #257DC8);
+   padding-top: 5em;
+}
+
+/* try adding padding or margin to container-fluid instead */
+#homeSection form {
+margin: 7em 15em auto 15em;
+width: 50%;
+background: white;
+padding: 1em;
+box-shadow: 5px 5px 5px #c7c7c7;
+}
+
+#homeSection button {
+margin-right: 0.2em;
+}
+
+
+
+ @media (max-width:1240px) {
+
+    .holdingPhone {
+    width: 100%;
+    margin-top: 5em;
+    }
+  
+  
+    #homeSection form {
+     margin: auto 5em auto 5em;
+    }
+
+  }
+
+@media (max-width:1000px) {
+
+  .holdingPhone {
+    width: 100%;
+    }
+
+  #homeSection{
+    padding-top: 5em;
+  }
+
+  #homeSection form {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 991px){
+  #homeSection form{
+     margin-bottom: 3em;
+  }
+}
+
+
+/* ///////////////////// FEATURES /////////////////////////// */
+
+
+#featuresSection {
+  text-align: center;
+}
+
+.featureIcon {
+  font-size: 2.5rem;
+}
+
+.featureElement {
+  margin: 10% auto 10% auto;
+  padding: 5%;
+}
+@media (max-width:991px) {
+  .featureElement {
+    padding: 15%;
+  }
 }
