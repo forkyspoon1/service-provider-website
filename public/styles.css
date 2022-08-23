@@ -76,6 +76,7 @@ margin-right: 0.2em;
 
   #homeSection{
     padding-top: 5em;
+    padding: 0.75em;
   }
 
   #homeSection form {
@@ -99,6 +100,7 @@ margin-right: 0.2em;
 
 #featuresSection {
   text-align: center;
+  margin: 10%;
 }
 
 .featureIcon {
@@ -112,5 +114,56 @@ margin-right: 0.2em;
 @media (max-width:991px) {
   .featureElement {
     padding: 15%;
+  }
+}
+
+/* ///////////////////// PRICING SECTION /////////////////////////// */
+
+
+#pricingSection {
+  text-align: center;
+  padding: 15%;
+} 
+#pricingSection .container{
+  padding: 0;
+}
+
+.table th{
+  padding: 1rem;
+  background-color: #ADD8E6;
+}
+
+table{
+  box-shadow: 10px 10px 5px grey;
+}
+
+th{
+  vertical-align: middle;
+}
+
+td{
+  vertical-align: middle;
+}
+
+.checkMark{
+  font-size: 1.5rem;
+}
+
+@media (max-width:991px)  {
+  #pricingSection {
+    text-align: center;
+    margin: 0;
+    padding: 1em;
+    font-size: 0.9rem;
+  }
+  
+
+  .table th{
+    padding: 0.5em;
+    font-size: 1rem;
+    margin: 0;
+  }
+  .checkMark{
+    font-size: 1.3em;
   }
 }
