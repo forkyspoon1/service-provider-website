@@ -18,8 +18,9 @@ return (
 
         <section id='pricingSection'>
         <div className='container'>
-            <table className='table table-responsive table-borderless'>
-                <thead >
+            <table className='table table-responsive table-borderless rounded'>
+            {/* table-responsive table-borderless */}
+                <thead>
                     <tr>
                         <th scope='col'>Features</th>
                         <th scope='col'>PEP Fiber</th>
@@ -48,7 +49,6 @@ return (
                     </tr>
                 </tbody>
             </table>
-
         </div>
         </section>
 
