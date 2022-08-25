@@ -124,30 +124,31 @@ margin-right: 0.2em;
   text-align: center;
   padding: 15%;
 } 
+
 #pricingSection .container{
   padding: 0;
 }
 
-.table th{
-  padding: 1rem;
+table {
+  box-shadow: 10px 10px 5px grey;
   background-color: #ADD8E6;
 }
 
-table{
-  box-shadow: 10px 10px 5px grey;
+.table td{
+  vertical-align: middle;
+  background-color: white;
 }
 
-th{
-  vertical-align: middle;
+.table th{
+  padding: 1rem;
 }
 
-td{
-  vertical-align: middle;
-}
 
 .checkMark{
   font-size: 1.5rem;
 }
+
+ 
 
 @media (max-width:991px)  {
   #pricingSection {
