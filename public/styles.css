@@ -120,12 +120,13 @@ margin-right: 0.2em;
 /* ///////////////////// PRICING SECTION /////////////////////////// */
 
 
-#pricingSection {
+#ComparisonSection {
   text-align: center;
   padding: 15%;
+  background-color: #21C7D4;
 } 
 
-#pricingSection .container{
+#ComparisonSection .container{
   padding: 0;
 }
 
@@ -134,13 +135,14 @@ table {
   background-color: #ADD8E6;
 }
 
-.table td{
+td{
   vertical-align: middle;
   background-color: white;
 }
 
 .table th{
   padding: 1rem;
+  
 }
 
 
@@ -151,7 +153,7 @@ table {
  
 
 @media (max-width:991px)  {
-  #pricingSection {
+  #ComparisonSection {
     text-align: center;
     margin: 0;
     padding: 1em;
@@ -166,5 +168,53 @@ table {
   }
   .checkMark{
     font-size: 1.3em;
+  }
+}
+
+
+/* ///////////////////// REVIEWS SECTION /////////////////////////// */
+
+
+#reviewSection {
+text-align: center;
+}
+
+.carousel {
+  margin: 10%;
+  text-align: center;
+}
+
+.starIcons{
+  color: white;
+}
+
+.carousel-indicators [data-bs-target] {
+width: 1rem;
+height: 1rem;
+  border-radius: 100%;
+}
+
+
+.pfpPlaceholder{
+  width: 15%;
+  height: auto;
+  margin: 1rem;
+}
+
+.itemContainer{
+  background-color: orange;
+  width: auto;
+  height: 500px;
+  padding: 5% 20%;
+}
+
+@media (max-width: 991px){
+  .pfpPlaceholder{
+    width: 25%;
+    height: auto;
+    margin: 0.5rem;
+  }
+  h4, h1 {
+    font-size: 1.2rem;
   }
 }
