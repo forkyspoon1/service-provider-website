@@ -8,8 +8,7 @@ return (
 
     <section id='ComparisonSection'>
     <div className='container'>
-        <table className='table table-responsive table-borderless rounded'>
-        {/* table-responsive table-borderless */}
+        <table className='table table-responsive table-borderless'>
             <thead>
                 <tr>
                     <th scope='col'>Features</th>
@@ -24,6 +23,7 @@ return (
                     <td><FontAwesomeIcon className='checkMark' icon={faCircleCheck} /></td>
                     <td><FontAwesomeIcon className='checkMark' icon={faCircleCheck} /></td>
                     <td><FontAwesomeIcon className='checkMark' icon={faCircleCheck} /></td>
+               
                 </tr>
                 <tr>
                     <th  scope='row'>Unlimited Data</th>

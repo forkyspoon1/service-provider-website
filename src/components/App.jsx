@@ -4,6 +4,7 @@ import Home from './Home/Home.jsx';
 import Features from './Features/Features.jsx';
 import CompareTable from './ComparisonTable/Comparison.jsx';
 import Reviews from './Reviews/Reviews.jsx';
+import Pricing from './Pricing/Pricing.jsx';
 
 
 
@@ -16,7 +17,7 @@ return (
         <Features />
         <CompareTable />
         <Reviews />
-
+        <Pricing />
     </>
 )
 }

@@ -135,15 +135,17 @@ table {
   background-color: #ADD8E6;
 }
 
-td{
+  
+.table td{
   vertical-align: middle;
-  background-color: white;
+  background-color: white;  
 }
 
 .table th{
   padding: 1rem;
-  
 }
+
+
 
 
 .checkMark{
@@ -217,4 +219,57 @@ height: 1rem;
   h4, h1 {
     font-size: 1.2rem;
   }
+}
+
+/* ///////////////////// PRICING SECTION /////////////////////////// */
+
+
+#PricingSection{
+  padding: 15%;
+  text-align: center;
+}
+
+#PricingSection h1 {
+  line-height: 10rem;
+}
+
+.card{
+  margin: 1rem;
+  font-size: 1rem;
+}
+
+.card-body{
+  padding: 0;
+}
+
+.card-text{
+  margin: 1rem;
+}
+
+#PricingSection a {
+  margin: 1rem;
+  vertical-align: center;
+}
+
+@media (max-width:991px){
+
+  #PricingSection{
+    padding: 15%;
+  }
+
+
+  #PricingSection h1 {
+    line-height: 2rem;
+    font-size: 2rem;
+  }
+
+  .card{
+    margin: 1em 0 1em 0;
+    font-size: 0.8rem;
+  }
+
+  .card-holder{
+    padding: 0;
+  }
+
 }
