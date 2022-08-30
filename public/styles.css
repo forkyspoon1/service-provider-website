@@ -3,7 +3,6 @@ html, body {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  /* overflow: hidden;  */
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -18,16 +17,25 @@ h2 {
 
 .navbar {
     background-color: #257DC8;
-    padding: auto 5rem auto 5rem;
+    /* padding: auto 5rem auto 5rem; */
 }
 
 .navbar img {
   width: 5em;
-  margin-left: 0.5em;
+  /* margin-left: 0.5em; */
 }
 
-.nav-item {
-  padding-left: 0.5em;
+.navbar .nav-item {
+  padding: 0.5em;
+}
+
+@media (max-width: 991px){
+  .navbar img {
+    margin-left: 0.5em;
+  }
+  .navbar .nav-item {
+    padding: 0;
+  }
 }
 
 
@@ -36,71 +44,63 @@ h2 {
 
 #homeSection {
    background-image: linear-gradient(to bottom right, #21C7D4, #257DC8);
-   padding-top: 5em;
+   /* padding-top: 5em; */
 }
 
 /* try adding padding or margin to container-fluid instead */
 #homeSection form {
-margin: 7em 15em auto 15em;
+/* margin: 7em 15em auto 15em; */
+margin-top: 5em;
 width: 50%;
 background: white;
 padding: 1em;
-box-shadow: 5px 5px 5px #c7c7c7;
+box-shadow: 5px 5px 5px #E2DCC8;
 }
 
 #homeSection button {
-margin-right: 0.2em;
+background-color: #257DC8;
 }
+
 
 
 
  @media (max-width:1240px) {
 
-    .holdingPhone {
+    #homeSection img {
     width: 100%;
-    margin-top: 5em;
+    margin-top: 2em;
+
     }
-  
   
     #homeSection form {
      margin: auto 5em auto 5em;
+     width: 70%;
     }
 
   }
 
-@media (max-width:1000px) {
+@media (max-width:991px) {
 
-  .holdingPhone {
+  #homeSection img {
     width: 100%;
     }
 
   #homeSection{
-    padding-top: 5em;
-    padding: 0.75em;
+    padding-bottom: 3em;
   }
-
   #homeSection form {
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
+
     width: 100%;
     box-shadow: none;
   }
 }
 
-@media (max-width: 991px){
-  #homeSection form{
-     margin-bottom: 3em;
-  }
-}
 
-
-/* ///////////////////// FEATURES /////////////////////////// */
+/* ///////////////////// FEATURES SECTION /////////////////////////// */
 
 
 #featuresSection {
   text-align: center;
-  margin: 10%;
 }
 
 .featureIcon {
@@ -108,38 +108,53 @@ margin-right: 0.2em;
 }
 
 .featureElement {
-  margin: 10% auto 10% auto;
+  margin: 10% auto;
   padding: 5%;
 }
+
 @media (max-width:991px) {
-  .featureElement {
-    padding: 15%;
+  .featureElement{
+    padding: 10%;
+    font-size: 0.9em;
+  }
+  .featureIcon,  #featuresSection h2{
+    font-size: 2rem;
   }
 }
 
-/* ///////////////////// PRICING SECTION /////////////////////////// */
+@media (max-width: 300px){
+  .featureElement{
+    padding: 0;
+  }
+}
+
+/* ///////////////////// COMPARISON SECTION /////////////////////////// */
 
 
 #ComparisonSection {
   text-align: center;
   padding: 15%;
   background-color: #21C7D4;
+  margin: auto;
 } 
 
 #ComparisonSection .container{
   padding: 0;
+  margin: auto;
 }
 
 table {
   box-shadow: 10px 10px 5px grey;
+overflow: hidden;
   background-color: #ADD8E6;
 }
 
   
 .table td{
   vertical-align: middle;
-  background-color: white;  
+   background-color: white;  
 }
+
 
 .table th{
   padding: 1rem;
@@ -159,10 +174,8 @@ table {
     text-align: center;
     margin: 0;
     padding: 1em;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
-  
-
   .table th{
     padding: 0.5em;
     font-size: 1rem;
@@ -170,6 +183,21 @@ table {
   }
   .checkMark{
     font-size: 1.3em;
+  }
+}
+
+@media (max-width: 300px){
+  .table th{
+    padding: 0;
+    font-size: 0.6rem;
+    margin: 0;
+  }
+  #ComparisonSection {
+    margin: 0;
+    padding: 1em 0 1em 0;
+  }
+  table {
+    box-shadow: none;
   }
 }
 
@@ -204,7 +232,7 @@ height: 1rem;
 }
 
 .itemContainer{
-  background-color: orange;
+  background-color: #FF9551;
   width: auto;
   height: 500px;
   padding: 5% 20%;
@@ -219,14 +247,18 @@ height: 1rem;
   h4, h1 {
     font-size: 1.2rem;
   }
+  .carousel {
+    margin: 5%;
+  }
 }
 
 /* ///////////////////// PRICING SECTION /////////////////////////// */
 
 
 #PricingSection{
-  padding: 15%;
   text-align: center;
+  background-color: #21C7D4;
+  padding: 10%;
 }
 
 #PricingSection h1 {
@@ -245,6 +277,15 @@ height: 1rem;
 .card-text{
   margin: 1rem;
 }
+
+
+#PricingSection li{
+  font-size: 1.3rem;
+  text-align: left;
+
+}
+
+
 
 #PricingSection a {
   margin: 1rem;
@@ -271,5 +312,18 @@ height: 1rem;
   .card-holder{
     padding: 0;
   }
+  
+  #PricingSection li{
+  font-size: 1rem;
+  text-align: left;
 
+}
+
+}
+
+/* ///////////////////// FOOTER SECTION /////////////////////////// */
+
+
+.supportBox{
+  text-align: right;
 }

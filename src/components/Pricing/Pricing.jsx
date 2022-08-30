@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faThumbsUp } from "@fortawesome/free-regular-svg-icons";
 
 function Pricing () {
     return(
@@ -8,31 +10,51 @@ function Pricing () {
             <div className="container">
                 <div className="row">
 
-                <div className="col-lg-4 card-holder">
+                <div className="col-lg-4">
                 <div className="card text-center" >
                     <div className="card-body">
-                        <h5 className="card-title card-header">Special title treatment</h5>
-                        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <h3 className="card-title card-header">Standard 14.99/mo</h3>
+                        <div className="card-text">
+                        <ul>
+                        <li>Speeds up to 1gb/minute</li>
+                        <li>Mutliple device supported</li>
+                        <li>testing</li>
+                        <li>testing</li>
+                        </ul>
+                        </div>
                         <a href="#homeSection" className="btn btn-primary">Button</a>
                     </div>
                 </div>
                 </div>
 
-                <div className="col-lg-4 card-holder">
+                <div className="col-lg-4">
                 <div className="card text-center" >
                     <div className="card-body">
-                        <h5 className="card-title card-header">Special title treatment</h5>
-                        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <h3 className="card-title card-header">Family 29.99/mo <FontAwesomeIcon icon={faThumbsUp}/></h3>
+                        <div className="card-text">
+                        <ul>
+                        <li>Discount Available for Families</li>
+                        <li>Speeds up to 3gb/minute</li>
+                        <li>Multiple device supported</li>
+                        </ul>
+                        </div>
                         <a href="#homeSection" className="btn btn-primary">Button</a>
                     </div>
                 </div>
                 </div>
 
-                <div className="col-lg-4 card-holder">
+                <div className="col-lg-4">
                 <div className="card text-center" >
                     <div className="card-body">
-                        <h5 className="card-title card-header">Special title treatment</h5>
-                        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <h3 className="card-title card-header">Premium 49.99/mo</h3>
+                        <div className="card-text">
+                        <ul>
+                        <li>Speeds up to 5gb/minute</li>
+                        <li>Multiple device supported</li>
+                        <li>Unlimited</li>
+                        <li>Free PEP Fiber Hoodie</li>
+                        </ul>
+                        </div>
                         <a href="#homeSection" className="btn btn-primary">Button</a>
                     </div>
                 </div>
