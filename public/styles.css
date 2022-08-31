@@ -145,7 +145,7 @@ background-color: #257DC8;
 
 table {
   box-shadow: 10px 10px 5px grey;
-overflow: hidden;
+/* overflow: hidden; */
   background-color: #ADD8E6;
 }
 
@@ -202,11 +202,17 @@ overflow: hidden;
 }
 
 
+
+.container-container{
+  background-color: white;
+}
+
 /* ///////////////////// REVIEWS SECTION /////////////////////////// */
 
 
-#reviewSection {
+#ReviewSection {
 text-align: center;
+background-color: #FF9551;
 }
 
 .carousel {

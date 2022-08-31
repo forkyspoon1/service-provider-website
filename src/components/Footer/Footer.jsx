@@ -27,7 +27,7 @@ return(
       <div className="col-6 col-md-2 mb-3">
         <h5>About</h5>
         <ul className="nav flex-column">
-          <li className="nav-item mb-2"><a href="#HomeSection" className="nav-link p-0 text-muted">Our mission</a></li>
+          <li className="nav-item mb-2"><a href="#HomeSection" className="nav-link p-0 text-muted">Our Mission</a></li>
           <li className="nav-item mb-2"><a href="#HomeSection" className="nav-link p-0 text-muted">Locations</a></li>
           <li className="nav-item mb-2"><a href="#HomeSection" className="nav-link p-0 text-muted">Terms</a></li>
         </ul>

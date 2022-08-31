@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon }  from '@fortawesome/react-fontawesome';
 import {faStar, faStarHalf} from '@fortawesome/free-solid-svg-icons'
 import pfpPlaceholder from '../../Assets/pfpplaceholder.png'
+import Review from "./Review";
 
 
 function Reviews () {
@@ -18,28 +19,28 @@ function Reviews () {
   </ol>
   <div className="carousel-inner">
     <div className="carousel-item active">
-        <div className="itemContainer">
-            <img src={pfpPlaceholder} alt="pfp" className="pfpPlaceholder"></img>
-            <h1>Random Guy</h1>
-            <p className="starIcons"><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /></p>
-            <h4>My family has been using PEP Fiber for over 10 years now and we have been absolutely loving it!</h4>
-        </div>
+            <Review
+            pfp={pfpPlaceholder}
+            name="Random Guy"
+            stars= {<span><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStarHalf}/></span>}
+            description="My family has been using PEP Fiber for over 10 years now and we have been absolutely loving it!"
+            />
     </div>
     <div className="carousel-item">
-        <div className="itemContainer">
-            <img src={pfpPlaceholder} alt="pfp" className="pfpPlaceholder"></img>
-            <h1>Random Guy</h1>
-            <p className="starIcons"><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStarHalf}/></p>
-            <h4>My family has been using PEP Fiber for over 10 years now and we have been absolutely loving it!</h4>
-        </div>
+    <Review
+            pfp={pfpPlaceholder}
+            name="Random Guy"
+            stars= {<span><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></span>}
+            description="My family has been using PEP Fiber for over 10 years now and we have been absolutely loving it!"
+            />
     </div>
     <div className="carousel-item">
-    <div className="itemContainer">
-            <img src={pfpPlaceholder} alt="pfp" className="pfpPlaceholder"></img>
-            <h1>Random Guy</h1>
-            <p className="starIcons"><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStarHalf}/></p>
-            <h4>My family has been using PEP Fiber for over 10 years now and we have been absolutely loving it!</h4>
-        </div>
+    <Review
+            pfp={pfpPlaceholder}
+            name="Random Guy"
+            stars= {<span><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></span>}
+            description="My family has been using PEP Fiber for over 10 years now and we have been absolutely loving it!"
+            />
     </div>
   </div>
   </div>
