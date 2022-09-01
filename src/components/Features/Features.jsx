@@ -3,7 +3,7 @@ import Feature , {featuresArray} from "./Feature.jsx";
 
 function Features () {
     return (
-        <section id='featuresSection' className="m-5">
+        <section id='featuresSection'>
             <div className='container'>
                 <div className='row'>
                     {featuresArray.map((feature)=>{

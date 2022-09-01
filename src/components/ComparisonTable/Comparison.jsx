@@ -1,5 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon }  from '@fortawesome/react-fontawesome';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCircleCheck} from '@fortawesome/free-solid-svg-icons';
 import TableRow from "./TableRow";
 
@@ -10,7 +10,7 @@ return (
     <section id='ComparisonSection'>
  
     <div className='container'>
-        <table className='table table-responsive table-borderless'>
+        <table className='table table-responsive table-borderless rounded-2'>
             <thead>
                 <tr>
                     <th scope='col'>Features</th>
@@ -20,24 +20,24 @@ return (
                 </tr>
             </thead>
             <tbody>
-                <TableRow
-                title="Fast Internet"
-                pepfiber= {faCircleCheck}
-                company2= {faCircleCheck}
-                company3= {faCircleCheck}
-                 />
-                <TableRow
-                title="Unlimited Data"
-                pepfiber={faCircleCheck}
-                company2=""
-                company3={faCircleCheck}
-                 />
-                <TableRow
-                title="Anytime Contract Cancels"
-                pepfiber={faCircleCheck}
-                company2={faCircleCheck}
-                company3=""
-                 />
+                <tr>
+                    <th  scope='row'>Fast Internet</th>
+                    <td><FontAwesomeIcon className="checkMark" icon={faCircleCheck}/></td>
+                    <td><FontAwesomeIcon className="checkMark" icon={faCircleCheck}/></td>
+                    <td><FontAwesomeIcon className="checkMark" icon={faCircleCheck}/></td>
+                </tr>
+                <tr>
+                    <th  scope='row'>Unlimited Data</th>
+                    <td><FontAwesomeIcon className="checkMark" icon={faCircleCheck}/></td>
+                    <td></td>
+                    <td><FontAwesomeIcon className="checkMark" icon={faCircleCheck}/></td>
+                </tr>
+                <tr>
+                    <th  scope='row'>Anytime Contract Cancels</th>
+                    <td><FontAwesomeIcon className="checkMark" icon={faCircleCheck}/></td>
+                    <td><FontAwesomeIcon className="checkMark" icon={faCircleCheck}/></td>
+                    <td className="bottomRightCorner"></td>
+                </tr>
             </tbody>
         </table>
    

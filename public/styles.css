@@ -101,6 +101,8 @@ background-color: #257DC8;
 
 #featuresSection {
   text-align: center;
+  background-color: #FFF5E4;
+  padding: 5rem;
 }
 
 .featureIcon {
@@ -134,7 +136,7 @@ background-color: #257DC8;
 #ComparisonSection {
   text-align: center;
   padding: 15%;
-  background-color: #21C7D4;
+  background-image: linear-gradient(to bottom right, #257DC8, #21C7D4);
   margin: auto;
 } 
 
@@ -152,12 +154,15 @@ table {
   
 .table td{
   vertical-align: middle;
-   background-color: white;  
+  background-color: white;
 }
-
 
 .table th{
   padding: 1rem;
+}
+
+.table .bottomRightCorner{
+  border-radius: 0 0 0.5rem 0;
 }
 
 
@@ -212,7 +217,8 @@ table {
 
 #ReviewSection {
 text-align: center;
-background-color: #FF9551;
+/* background-color: #FF9551; */
+background-color: #FFF5E4;
 }
 
 .carousel {
@@ -221,13 +227,14 @@ background-color: #FF9551;
 }
 
 .starIcons{
-  color: white;
+  color: #1c1c1c;
 }
 
 .carousel-indicators [data-bs-target] {
 width: 1rem;
 height: 1rem;
   border-radius: 100%;
+  background-color: #1c1c1c;
 }
 
 
@@ -238,7 +245,8 @@ height: 1rem;
 }
 
 .itemContainer{
-  background-color: #FF9551;
+  /* background-color: #FF9551; */
+  background-color: #FFF5E4;
   width: auto;
   height: 500px;
   padding: 5% 20%;
@@ -263,17 +271,20 @@ height: 1rem;
 
 #PricingSection{
   text-align: center;
-  background-color: #21C7D4;
+  background-color:  #2787db;
+  
   padding: 10%;
 }
 
 #PricingSection h1 {
   line-height: 10rem;
+  color: #FFF5E4;
 }
 
 .card{
   margin: 1rem;
   font-size: 1rem;
+  background-color: #FFF5E4;
 }
 
 .card-body{
@@ -333,3 +344,5 @@ height: 1rem;
 .supportBox{
   text-align: right;
 }
+
+
