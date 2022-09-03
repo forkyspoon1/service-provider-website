@@ -1,24 +1,20 @@
 import React from "react";
-import HoldingPhone from "../../Assets/holding_phoneWords.png";
-import Form from "./Form";
+import Features from "./Features/Features";
+import CompareTable from "./ComparisonTable/Comparison";
+import Reviews from "./Reviews/Reviews";
+import Pricing from "./Pricing/Pricing";
+import Title from "./Title/Title";
 
 
 function Home () {
     return (
-    <section id="homeSection" className="pt-5">
-
-        <div className="container-fluid">
-         <div className="row">
-            <div className="col-lg-6">
-                <img src={HoldingPhone} alt="home-background"></img>
-            </div>
-            <div className="col-lg-6">
-                <Form />
-            </div>
-         </div>
-        </div>
-            
-    </section>
+    <>
+        <Title />
+        <Features />
+        <CompareTable />
+        <Reviews />
+        <Pricing />
+    </>
  )
 }
 

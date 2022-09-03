@@ -3,12 +3,13 @@ import Feature , {featuresArray} from "./Feature.jsx";
 
 function Features () {
     return (
-        <section id='featuresSection'>
+        <section id='FeaturesSection'>
             <div className='container'>
                 <div className='row'>
-                    {featuresArray.map((feature)=>{
+                    {featuresArray.map((feature, index)=>{
                         return(
                             <Feature
+                            key = {index}
                             title= {feature.title}
                             description={feature.description}
                             icon={feature.icon}

@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon }  from '@fortawesome/react-fontawesome';
-import {faStar, faStarHalf} from '@fortawesome/free-solid-svg-icons'
-import pfpPlaceholder from '../../Assets/pfpplaceholder.png'
+import {faStar, faStarHalf} from '@fortawesome/free-solid-svg-icons';
+import pfpPlaceholder from '../../../Assets/pfpplaceholder.png';
 import Review from "./Review";
 
 

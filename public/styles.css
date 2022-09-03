@@ -42,13 +42,13 @@ h2 {
 /* ///////////////////// HOME SECTION /////////////////////////// */
 
 
-#homeSection {
+#title-section {
    background-image: linear-gradient(to bottom right, #21C7D4, #257DC8);
    /* padding-top: 5em; */
 }
 
 /* try adding padding or margin to container-fluid instead */
-#homeSection form {
+#title-section form {
 /* margin: 7em 15em auto 15em; */
 margin-top: 5em;
 width: 50%;
@@ -57,7 +57,7 @@ padding: 1em;
 box-shadow: 5px 5px 5px #E2DCC8;
 }
 
-#homeSection button {
+#title-section button {
 background-color: #257DC8;
 }
 
@@ -66,13 +66,13 @@ background-color: #257DC8;
 
  @media (max-width:1240px) {
 
-    #homeSection img {
+    #title-section img {
     width: 100%;
     margin-top: 2em;
 
     }
   
-    #homeSection form {
+    #title-section form {
      margin: auto 5em auto 5em;
      width: 70%;
     }
@@ -81,14 +81,14 @@ background-color: #257DC8;
 
 @media (max-width:991px) {
 
-  #homeSection img {
+  #title-section img {
     width: 100%;
     }
 
-  #homeSection{
+  #title-section{
     padding-bottom: 3em;
   }
-  #homeSection form {
+  #title-section form {
 
     width: 100%;
     box-shadow: none;
@@ -99,7 +99,7 @@ background-color: #257DC8;
 /* ///////////////////// FEATURES SECTION /////////////////////////// */
 
 
-#featuresSection {
+#FeaturesSection {
   text-align: center;
   background-color: #FFF5E4;
   padding: 5rem;
@@ -119,7 +119,7 @@ background-color: #257DC8;
     padding: 10%;
     font-size: 0.9em;
   }
-  .featureIcon,  #featuresSection h2{
+  .featureIcon,  #FeaturesSection h2{
     font-size: 2rem;
   }
 }
@@ -258,7 +258,7 @@ height: 1rem;
     height: auto;
     margin: 0.5rem;
   }
-  h4, h1 {
+  #ReviewSection h4, h1 {
     font-size: 1.2rem;
   }
   .carousel {
@@ -312,7 +312,7 @@ height: 1rem;
 @media (max-width:991px){
 
   #PricingSection{
-    padding: 15%;
+    padding: 10%;
   }
 
 
@@ -323,7 +323,7 @@ height: 1rem;
 
   .card{
     margin: 1em 0 1em 0;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .card-holder{
@@ -341,8 +341,28 @@ height: 1rem;
 /* ///////////////////// FOOTER SECTION /////////////////////////// */
 
 
+#FooterSection{
+  /* position: relative; */
+  /* width: 100%; */
+  bottom: 0;
+}
+
+
+
 .supportBox{
   text-align: right;
 }
 
+@media (max-width: 767px){
+  .supportBox{
+    text-align: left;
+  }
+}
 
+
+/* ///////////////////// SUPPORT SECTION /////////////////////////// */
+
+
+.contactInfo {
+
+}
